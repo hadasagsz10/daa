@@ -1,0 +1,18 @@
+2023-04-04 11:36:32.046 [info] Log level: Info
+2023-04-04 11:36:32.046 [info] Validating found git in: "git"
+2023-04-04 11:36:32.046 [info] Using git "2.25.1" from "git"
+2023-04-04 11:36:32.046 [info] > git rev-parse --show-toplevel [46ms]
+2023-04-04 11:36:32.054 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-04-04 11:36:32.065 [info] Open repository: /root/daa
+2023-04-04 11:36:32.112 [info] > git config --get commit.template [6ms]
+2023-04-04 11:36:32.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-04-04 11:36:32.133 [info] > git status -z -uall [1ms]
+2023-04-04 11:36:32.149 [info] > git config --get commit.template [1ms]
+2023-04-04 11:36:32.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-04 11:36:32.164 [info] > git status -z -uall [3ms]
+2023-04-04 11:36:54.856 [info] > git show --textconv :pert3.md [4ms]
+2023-04-04 11:36:54.856 [info] > git ls-files --stage -- /root/daa/pert3.md [1ms]
+2023-04-04 11:36:55.180 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-04 11:36:55.702 [info] > git config --get commit.template [1ms]
+2023-04-04 11:36:55.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-04 11:36:55.711 [info] > git status -z -uall [1ms]

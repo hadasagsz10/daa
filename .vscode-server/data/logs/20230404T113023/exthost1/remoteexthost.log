@@ -1,0 +1,17 @@
+2023-04-04 11:30:26.461 [info] Extension host with pid 143 started
+2023-04-04 11:30:26.487 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/2d8b0719a2cb71d846f8308bcc17cfeb/vscode.lock': Lock acquired.
+2023-04-04 11:30:26.532 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2023-04-04 11:30:26.533 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-04 11:30:27.126 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-04 11:30:27.181 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-04 11:30:27.182 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-04 11:30:27.346 [info] Eager extensions activated
+2023-04-04 11:30:27.346 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-04 11:30:27.346 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-04 11:30:30.904 [warning] DiagnosticCollection with name 'C/C++' does already exist.
+2023-04-04 11:30:53.143 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-04-04 11:30:53.143 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-04-04 11:30:53.587 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-04-04 11:33:23.807 [info] Extension host terminating: received terminate message from renderer
+2023-04-04 11:33:23.807 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/2d8b0719a2cb71d846f8308bcc17cfeb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-04 11:33:23.886 [info] Extension host with pid 143 exiting with code 0

@@ -1,0 +1,21 @@
+2023-04-04 11:33:45.796 [info] Log level: Info
+2023-04-04 11:33:45.796 [info] Validating found git in: "git"
+2023-04-04 11:33:45.796 [info] Using git "2.25.1" from "git"
+2023-04-04 11:33:45.796 [info] > git rev-parse --show-toplevel [39ms]
+2023-04-04 11:33:45.803 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2023-04-04 11:33:45.813 [info] Open repository: /root/daa
+2023-04-04 11:33:45.847 [info] > git config --get commit.template [24ms]
+2023-04-04 11:33:45.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-04 11:33:45.859 [info] > git status -z -uall [1ms]
+2023-04-04 11:33:45.879 [info] > git config --get commit.template [2ms]
+2023-04-04 11:33:45.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-04 11:33:45.893 [info] > git status -z -uall [2ms]
+2023-04-04 11:34:03.066 [info] > git show --textconv :pert3.md [8ms]
+2023-04-04 11:34:03.067 [info] > git ls-files --stage -- /root/daa/pert3.md [4ms]
+2023-04-04 11:34:03.157 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-04 11:34:03.666 [info] > git config --get commit.template [0ms]
+2023-04-04 11:34:03.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-04-04 11:34:03.674 [info] > git status -z -uall [0ms]
+2023-04-04 11:35:04.963 [info] > git show --textconv HEAD:pert3.md [6ms]
+2023-04-04 11:35:04.964 [info] > git ls-tree -l HEAD -- /root/daa/pert3.md [2ms]
+2023-04-04 11:35:04.964 [info] fatal: Not a valid object name HEAD
